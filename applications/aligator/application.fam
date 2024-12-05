@@ -1,0 +1,6 @@
+# Placeholder
+App(
+    appid="aligator_apps",
+    name="Aligator apps bundle",
+    apptype=FlipperAppType.METAPACKAGE
+)
