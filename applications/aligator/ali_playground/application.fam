@@ -1,0 +1,16 @@
+App(
+    appid="ali_playground",
+    name="Aligators playground app",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="ali_playground",
+    fap_version=(1, 9),
+    stack_size=4 * 1024,
+    requires=[
+        "gui",
+    ],
+    order=10,
+    fap_icon="app.png",
+    fap_category="Tools",
+    fap_author="aligator",
+    fap_description="An app to experiment with Flipper Zero programming.",
+)
